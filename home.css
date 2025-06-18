@@ -1,0 +1,123 @@
+/*---------Ctrl C + Ctrl V--------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: 0;
+    background-color: transparent;
+}
+
+.menu-idle{
+    position: fixed;
+    z-index: 998;
+    transition: 0.4s;
+    width: 90px;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.menu-btn{
+    width: 90px;
+    height: 90px;
+    background-color: #0F0F0F;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-btn>svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#menu1{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.menu-social{
+    width: 90px;
+    height: 873px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 47px;
+}
+
+.menu-social>a{
+    height: 27px;
+    margin-bottom: 50px;
+}
+
+.menu-social>a>svg{
+    width: 18px;
+    height: 18px;
+}
+
+.menu-slide{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    transition: 0.3s;
+}
+
+.menu-slide header{
+    display: flex;
+}
+
+#menu2{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.menu-slide header a{
+    background-color: #2916e0;
+    width: 180px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mn-slide-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-slide div ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.menu-slide div ul li a{
+    color: #b2b2b2;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#active{
+    color: #2916e0;
+}
