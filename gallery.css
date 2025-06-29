@@ -18,6 +18,11 @@ a{
     background-color: transparent;
 }
 
+img{
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
 #header1{
     background: transparent;
     width: 100%;
@@ -213,6 +218,7 @@ a{
     padding-top: 30px;
     padding-right: 74px;
     padding-left: 210px;
+    height: 88.8px;
 }
 
 .bar-tittle{
@@ -288,4 +294,38 @@ input[type="radio"]{
 input[type="radio"]:checked+.filter{
     color: #2916e0;
 }
+
+input[type="radio"]:hover+.filter{
+    color: #2916e0;
+    transition: 0.3s;   
+}
 /*---------Gallery--------- */
+
+.gallery{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+.gallery-item{
+    padding: 0 5px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.gallery-itembig{
+    width: 40%;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.img-icon{
+    border-radius: 50%;
+    padding-right: 10px;
+}
