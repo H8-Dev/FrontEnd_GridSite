@@ -302,9 +302,8 @@ input[type="radio"]:hover+.filter{
 /*---------Gallery--------- */
 
 .gallery{
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .gallery-item{
@@ -328,4 +327,8 @@ input[type="radio"]:hover+.filter{
 .img-icon{
     border-radius: 50%;
     padding-right: 10px;
+}
+
+#gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6, #gallery7, #gallery8, #gallery9, #gallery10, #gallery11{
+    width: 100%;
 }
