@@ -303,6 +303,8 @@ input[type="radio"]:hover+.filter{
 
 .gallery{
     display: grid;
+    grid-template-rows: 730px 200px 1fr;
+    grid-template-columns: 730px 358px 500px;
 }
 
 .gallery-item{
